@@ -1,0 +1,508 @@
+body {
+    margin:0;
+    padding:0;
+    height:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+	color: #464646;
+	box-sizing: border-box;
+}
+
+.wrapper{
+  width:100%;
+  max-width:1440px;
+  
+}
+
+.hcontainer{
+	height:809px;
+	max-width:1440px;
+	background:black;
+}
+
+.navbar{
+	width:100%;
+	position:relative;
+	top:20px;
+  }
+
+  .navbar-brand{
+	padding-left:40px;
+	font-size: 36px;
+	line-height: 44px;
+	/* identical to box height */
+	
+	text-align: center;
+	font-feature-settings: 'tnum' on, 'onum' on, 'ordn' on, 'dnom' on, 'numr' on, 'sinf' on, 'salt' on, 'ss01' on, 'case' on, 'kern' off;
+	
+	color: #5558DB;
+  }
+
+  .navbar ul{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 36px;
+	/* identical to box height, or 164% */
+	color: #787676;
+	  }
+
+	  .navbar ul li{
+		  margin-right:25px;
+		  padding-right:35px;
+	  }
+
+	  .nav-text{
+		  
+		  position: relative;
+		  top:110px;
+		  height:auto;
+		  
+	  }
+
+	  .nav-text h1{
+		  
+		  height:890;
+		  max-width:52%;
+		  font-family: Montserrat;
+		  font-style: normal;
+		  font-weight: bold;
+		  font-size: 64px;
+		  line-height: 52px;
+		  /* or 112% */
+		  color: #0B162B;
+	  }
+
+	  .nav-text h5{
+		  height:180;
+		  width:500px;
+		  font-family: Inter;
+		  font-style: normal;
+		  font-weight: normal;
+		  font-size: 22px;
+		  line-height: 36px;
+		  /* or 164% */
+		  color: #0B162B;
+		  margin-top:20px;
+	  }
+
+	  .nav-btn{
+		
+		  width:440px;
+		  margin-top:20px;
+	  }
+
+	  .nav-btn > .btn{
+		  border-radius:0px;
+		  width:210px;
+		  height: 60px;
+	  }
+
+	  .nav-btn > .rbtn{
+
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		/* identical to box height */
+		
+		text-align: center;
+		color: #FFFFFF;
+		position: relative;
+		right:10px;
+	
+	  }
+
+	  .nav-btn > .tbtn{
+		background:#fff;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		/* identical to box height */
+		text-align: center;
+		color: #5558DB;
+		
+
+		 
+		  }
+	
+	  
+
+	  @media screen and (max-width: 480px) {
+		.nav-text h1{
+			
+			height:890;
+			max-width:100%;
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: bold;
+			font-size:30px;
+			line-height: 35px;
+			/* or 112% */
+			color: #0B162B;
+		}
+
+		.nav-text h5{
+			height:180;
+			width:100%;
+			font-family: Inter;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height:20px;
+			/* or 164% */
+			color: #0B162B;
+		}
+		
+		.nav-btn{
+			
+			width:100%;
+			margin-top:20px;
+			display:flex;
+			flex-direction:column;
+			justify-content: center;
+			align-items: center;
+	}
+
+	.nav-btn > .btn{
+		border-radius:0px;
+		width:190px;
+		height:40px;
+	}
+
+	.nav-btn > .rbtn{
+		
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 18px;
+				line-height: 22px;
+				/* identical to box height */
+				text-align: center;
+				color: #FFFFFF;				
+				margin-left:20px;
+			  }
+		
+			  .nav-btn > .tbtn{
+				background:#fff;
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 18px;
+				line-height: 22px;
+				/* identical to box height */
+				text-align: center;
+				color: #5558DB;
+				
+				margin-top:10px;
+				  }
+}
+
+.card > img{
+	width:30px;
+	margin:20px auto;
+}
+
+.card-body > h5{
+	text-align:center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	/* identical to box height, or 133% */
+	
+	text-align: center;
+	
+	color: #0B162B;
+}
+
+.card-body{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+	/* or 167% */
+	
+	text-align: center;
+	
+	color: #0B162B;
+	
+	mix-blend-mode: normal;
+	opacity: 0.5;
+}
+
+.fsrow{
+	background: #5558DB;
+}
+
+.fsrow h3{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 30px;
+	/* identical to box height, or 83% */
+	color: #FFFFFF;
+	padding-top:10px;
+	padding-left:40px;
+}
+
+.fsrow h4{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 30px;
+	/* identical to box height, or 125% */
+	font-feature-settings: 'tnum' on, 'onum' on;	
+	color: #FFFFFF;
+	text-align:right;
+	padding-top:10px;
+	padding-right:50px;	
+}
+
+.srow{
+	background: #5558DB;
+	height:auto;
+}
+
+.missing-row h3{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 30px;
+	/* identical to box height, or 83% */
+	
+	
+	color: #5558DB;
+	
+	padding-top:10px;
+	padding-left:40px;
+}
+
+.missing-row h4{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 30px;
+	/* identical to box height, or 125% */
+	
+	font-feature-settings: 'tnum' on, 'onum' on;
+	color: #5558DB;
+	text-align:right;
+	padding-top:10px;
+	padding-right:50px;
+}
+
+.missing-person{
+
+}
+
+ .m1 > img{
+	padding-left:30px;
+}
+
+
+.footer-area {
+	background-color: #f7f7f7;
+	padding:100px 10px;
+	margin-top:15px;
+	height: 362px;
+  }
+  
+  @media (max-width: 991px) {
+	/* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+	.footer-area {
+	  padding: 70px 0px 25px;
+	}
+  }
+  
+  @media (max-width: 991px) {
+	/* line 9, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+	.footer-area .single-footer-widget {
+	  margin-bottom: 30px;
+	}
+  }
+  
+  /* line 14, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+  .footer-area .single-footer-widget p {
+	color: #7b838a;
+  }
+  
+  /* line 18, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+  .footer-area .single-footer-widget h4 {
+	color: #2a2a2a;
+	font-style: inherit;
+	margin-bottom: 30px;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: capitalize;
+  }
+  
+  @media (max-width: 1024px) {
+	/* line 18, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+	.footer-area .single-footer-widget h4 {
+	  font-size: 18px;
+	}
+  }
+  
+  @media (max-width: 991px) {
+	/* line 18, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+	.footer-area .single-footer-widget h4 {
+	  margin-bottom: 15px;
+	}
+  }
+  
+  /* line 33, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+  .footer-area .single-footer-widget ul li {
+	margin-bottom: 14px;
+  }
+  
+  /* line 35, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+  .footer-area .single-footer-widget ul li a {
+	color: #8a8a8a;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+  }
+  
+  /* line 38, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+  .footer-area .single-footer-widget ul li a:hover {
+	color: #fc4600;
+  }
+  
+  /* line 44, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+  .footer-area .single-footer-widget .form-wrap {
+	margin-top: 25px;
+	border: 1px solid #eee;
+	position: relative;
+  }
+  
+  /* line 49, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+  .footer-area .single-footer-widget input {
+	height: 48px;
+	border: none;
+	font-weight: 400;
+	background: transparent;
+	border-radius: 0;
+	font-size: 14px;
+	padding: 5px 5px 5px 15px;
+	color: #999999;
+  }
+  
+  /* line 59, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+  .footer-area .single-footer-widget input:focus {
+	outline: none;
+	box-shadow: none;
+  }
+  
+  /* line 68, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+  .footer-area .single-footer-widget .click-btn {
+	background-color: #fc4600;
+	color: #fff;
+	border-radius: 0;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	height: 40px;
+	width: 50px;
+	border: 0;
+	font-size: 12px;
+	font-weight: 400;
+	font-family: "Lora", serif;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+  }
+  
+  /* line 83, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+  .footer-area .single-footer-widget .click-btn:focus {
+	outline: none;
+	box-shadow: none;
+  }
+  
+  /* line 90, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+  .footer-area .footer-bottom {
+	margin-top: 70px;
+  }
+  
+  @media (max-width: 991px) {
+	/* line 90, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+	.footer-area .footer-bottom {
+	  margin-top: 20px;
+	}
+  }
+  
+  /* line 105, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+  .footer-area .footer-bottom .footer-social {
+	text-align: center;
+  }
+  
+  @media (max-width: 991px) {
+	/* line 105, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+	.footer-area .footer-bottom .footer-social {
+	  text-align: left;
+	  margin-top: 30px;
+	}
+  }
+  
+  /* line 111, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+  .footer-area .footer-bottom .footer-social a {
+	background: rgba(255, 255, 255, 0.15);
+	margin-left: 3px;
+	width: 32px;
+	display: inline-grid;
+	text-align: center;
+	height: 32px;
+	align-content: center;
+  }
+  
+  /* line 126, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+  .footer-area .footer-bottom .footer-social a i, .footer-area .footer-bottom .footer-social a span {
+	font-size: 14px;
+  }
+  
+  /* line 132, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+  .footer-area .copyright_text {
+	padding-top: 25px;
+	margin-top: 70px;
+	border-top: 1px solid #e6e8e9;
+  }
+  
+  @media (max-width: 991px) {
+	/* line 132, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+	.footer-area .copyright_text {
+	  margin-top: 20px;
+	  text-align: center;
+	}
+	/* line 139, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+	.footer-area .copyright_text p {
+	  margin-bottom: 20px !important;
+	}
+  }
+  
+  /* line 143, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+  .footer-area .copyright_text a {
+	color: #fc4600;
+  }
+  
+  /* line 147, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
+  .footer-area .copyright_text .footer-social a {
+	color: #b9babb;
+	margin-left:0px auto;
+  }
+
+  
+  
+  /*# sourceMappingURL=../css/style.map */
+
+
+.footer-text{
+	padding-left:50px;
+}
